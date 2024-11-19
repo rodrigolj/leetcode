@@ -1,0 +1,19 @@
+{
+    "name": "Ruby LeetCode Devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "github.vscode-pull-request-github"
+            ]
+        }
+    },
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind,readonly"
+    ],
+    "remoteUser": "vscode",
+    "postCreateCommand": "bundle config set --local path 'vendor/bundle' && bundle install"
+}
