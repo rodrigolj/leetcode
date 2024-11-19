@@ -7,7 +7,9 @@
         "vscode": {
             "extensions": [
                 "ms-azuretools.vscode-docker",
-                "github.vscode-pull-request-github"
+                "github.vscode-pull-request-github",
+                "shopify.ruby-extensions-pack",
+                "mateuszdrewniak.ruby-test-runner"
             ]
         }
     },
