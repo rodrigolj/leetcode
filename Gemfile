@@ -8,3 +8,7 @@ gem 'ostruct' # no longer part of default gems starting from Ruby 3.5.0
 gem 'pry'
 gem 'pry-byebug'
 gem 'rspec'
+gem 'sorbet'
+gem 'sorbet-runtime'
+gem 'tapioca'
+gem 'rubocop'
